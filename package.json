@@ -41,7 +41,7 @@
     "zone.js": "~0.13.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^16.1.4",
+    "@angular-devkit/build-angular": "^16.2.14",
     "@angular/cli": "~16.1.4",
     "@angular/compiler-cli": "^16.1.4",
     "@angular/localize": "^16.1.4",
@@ -69,7 +69,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "karma-spec-reporter": "^0.0.36",
-    "nightwatch": "^3.0.1",
+    "nightwatch": "^3.6.3",
     "nightwatch-html-reporter": "^2.0.6",
     "nohup": "^0.1.0",
     "path": "^0.12.7",
