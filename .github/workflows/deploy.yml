@@ -55,7 +55,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          name: Static-Site-Assets
+          name: github-pages
           path: .
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v1
