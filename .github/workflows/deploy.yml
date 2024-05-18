@@ -43,6 +43,7 @@ jobs:
       - name: Archive production artifacts
         uses: actions/upload-artifact@v4
         with:
+          name: Static-Built-Site
           path: public/transrally.github.io/
 
   # Single deploy job since we're just deploying
@@ -55,11 +56,12 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          name: github-pages
+          name: Static-Built-Site
           path: .
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v1
         with:
           path: .
-      - id: deployment
-        uses: actions/deploy-pages@main
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
