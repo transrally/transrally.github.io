@@ -43,7 +43,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Static-Site-Assets
-          path: public/github.transrally.io
+          path: public/github.transrally.io/
 
   # Single deploy job since we're just deploying
   deploy:
