@@ -43,4 +43,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Static-Site-Assets
-          path: public/trasrally.github.io/
+          path: public/transrally.github.io/
