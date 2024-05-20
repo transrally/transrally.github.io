@@ -18,9 +18,9 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Usi Diamond Github Page'`, () => {
+  it(`should have as title 'TransRally Website'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Usi Diamond Github Page');
+    expect(app.title).toEqual(TransRally Website');
   });
 });
