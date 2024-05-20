@@ -21,6 +21,6 @@ describe('AppComponent', () => {
   it(`should have as title 'TransRally Website'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual(TransRally Website');
+    expect(app.title).toEqual('TransRally Website');
   });
 });
