@@ -39,6 +39,7 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: npm run-script build
+      - run: npm run-script coverage
       - name: Archive production artifacts
         uses: actions/upload-artifact@v3
         with:
@@ -63,3 +64,8 @@ jobs:
           path: .
       - id: deployment
         uses: actions/deploy-pages@main
+      - name: Archive code coverage results
+        uses: actions/upload-artifact@v4
+        with:
+          name: code-coverage-report
+          path: coverage/transrally/
