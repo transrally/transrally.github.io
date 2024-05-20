@@ -1,5 +1,5 @@
 {
-  "name": "transrally.github.io",
+  "name": "usidiamond.github.io",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -16,8 +16,8 @@
     "e2e:safari": "nightwatch -r integration-testing/html-reporter.js -o tests_output -c nightwatch.conf.js -e safari",
     "e2e:edge": "nightwatch  -r integration-testing/html-reporter.js -o tests_output nightwatch.conf.js -e edge",
     "e2e:chrome": "nightwatch  -r integration-testing/html-reporter.js -o tests_output nightwatch.conf.js -e chrome",
-    "dockerBuild": "docker build -f Dockerfile -t transrally.github.io .",
-    "dockerRun": "docker run  --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin --workdir=/ -p 8080:8080 --runtime=runc -d transrally.github.io:latest"
+    "dockerBuild": "docker build -f Dockerfile -t usidiamond.github.io .",
+    "dockerRun": "docker run  --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin --workdir=/ -p 8080:8080 --runtime=runc -d usidiamond.github.io:latest"
   },
   "private": true,
   "dependencies": {
@@ -31,7 +31,7 @@
     "@angular/platform-browser-dynamic": "^16.1.4",
     "@angular/router": "^16.1.4",
     "@ng-bootstrap/ng-bootstrap": "^15.1.0",
-    "bootstrap": "^5.3.3",
+    "bootstrap": "^5.3.1",
     "express-rate-limit": "^6.7.0",
     "express.js": "^1.0.0",
     "jquery": "^3.7.0",
@@ -41,18 +41,18 @@
     "zone.js": "~0.13.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^16.2.14",
+    "@angular-devkit/build-angular": "^16.1.4",
     "@angular/cli": "~16.1.4",
     "@angular/compiler-cli": "^16.1.4",
     "@angular/localize": "^16.1.4",
-    "@cucumber/cucumber": "^10.7.0",
+    "@cucumber/cucumber": "^7.1.0",
     "@cucumber/pretty-formatter": "^1.0.0",
-    "@nightwatch/mobile-helper": "^0.1.13",
+    "@nightwatch/mobile-helper": "^0.1.12",
     "@types/chai": "^4.3.5",
     "@types/cucumber": "^6.0.1",
     "@types/jasmine": "~4.0.0",
     "@types/mocha": "^10.0.4",
-    "@types/node": "^20.12.12",
+    "@types/node": "^20.4.1",
     "chromedriver": "^119.0.1",
     "cucumber": "^6.0.7",
     "cucumber-html-reporter": "^6.0.0",
@@ -65,11 +65,9 @@
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.2.0",
-    "karma-coverage-istanbul-reporter": "^3.0.3",
     "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "~2.1.0",
     "karma-spec-reporter": "^0.0.36",
-    "nightwatch": "^3.6.3",
+    "nightwatch": "^3.0.1",
     "nightwatch-html-reporter": "^2.0.6",
     "nohup": "^0.1.0",
     "path": "^0.12.7",
@@ -78,6 +76,6 @@
     "typescript": "^5.1.6"
   },
   "publishConfig": {
-    "registry": "https://github.com/transrally/"
+    "registry": "https://github.com/UsiDiamond/"
   }
 }
