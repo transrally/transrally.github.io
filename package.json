@@ -22,15 +22,15 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^16.1.4",
-    "@angular/common": "^16.1.4",
-    "@angular/compiler": "^16.1.4",
-    "@angular/core": "^16.1.4",
+    "@angular/animations": "^17.3.9",
+    "@angular/common": "^17.3.9",
+    "@angular/compiler": "^17.3.9",
+    "@angular/core": "^17.3.9",
     "@angular/fire": "^7.6.1",
-    "@angular/forms": "^16.1.4",
-    "@angular/platform-browser": "^16.1.4",
-    "@angular/platform-browser-dynamic": "^16.1.4",
-    "@angular/router": "^16.1.4",
+    "@angular/forms": "^17.3.9",
+    "@angular/platform-browser": "^17.3.9",
+    "@angular/platform-browser-dynamic": "^17.3.9",
+    "@angular/router": "^17.3.9",
     "@ng-bootstrap/ng-bootstrap": "^15.1.0",
     "bootstrap": "^5.3.1",
     "express-rate-limit": "^6.7.0",
@@ -39,13 +39,13 @@
     "ng2-pdf-viewer": "^9.1.5",
     "popper.js": "^1.16.1",
     "rxjs": "~7.5.0",
-    "zone.js": "~0.13.1"
+    "zone.js": "~0.14.6"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^17.3.7",
-    "@angular/cli": "~16.1.4",
-    "@angular/compiler-cli": "^16.1.4",
-    "@angular/localize": "^16.1.4",
+    "@angular/cli": "~17.3.7",
+    "@angular/compiler-cli": "^17.3.9",
+    "@angular/localize": "^17.3.9",
     "@cucumber/cucumber": "^7.1.0",
     "@cucumber/pretty-formatter": "^1.0.0",
     "@nightwatch/angular": "3.1.1",
@@ -82,7 +82,7 @@
     "path": "^0.12.7",
     "ts-node": "^10.9.1",
     "tslib": "^2.6.0",
-    "typescript": "^5.1.6"
+    "typescript": "^5.4.5"
   },
   "publishConfig": {
     "registry": "https://github.com/transrally/"
