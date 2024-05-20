@@ -60,7 +60,7 @@
     "chai": "^5.1.1",
     "chromedriver": "^119.0.1",
     "cucumber": "^6.0.7",
-    "cucumber-html-reporter": "^6.0.0",
+    "cucumber-html-reporter": "^7.1.1",
     "cucumber-pretty": "^6.0.1",
     "fs": "^0.0.1-security",
     "geckodriver": "^4.0.4",
