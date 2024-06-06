@@ -8,7 +8,7 @@
     }
   },
   "projects": {
-    "transrally": {
+    "transrally.github.io": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -79,10 +79,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "transrally.github.io:build:production"
+              "buildTarget": "transrally.github.io:build:production"
             },
             "development": {
-              "browserTarget": "transrally.github.io:build:development"
+              "buildTarget": "transrally.github.io:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -90,7 +90,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "transrally.github.io:build"
+            "buildTarget": "transrally.github.io:build"
           }
         },
         "test": {
@@ -107,5 +107,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
