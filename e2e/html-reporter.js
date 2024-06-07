@@ -13,7 +13,7 @@ module.exports = {
     );
 
     // read the html template
-    fs.readFile("integration-testing/html-reporter.hbs", function (err, data) {
+    fs.readFile("e2e/html-reporter.hbs", function (err, data) {
       if (err) throw err;
 
       var template = data.toString();
