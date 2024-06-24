@@ -42,7 +42,7 @@
     "@angular-devkit/build-angular": "^18.0.3",
     "@angular/cli": "~18.0.3",
     "@angular/compiler-cli": "^18.0.2",
-    "@angular/localize": "^18.0.2",
+    "@angular/localize": "^18.0.4",
     "@cucumber/cucumber": "^10.8.0",
     "@cucumber/pretty-formatter": "^1.0.1",
     "@nightwatch/angular": "^3.1.1",
